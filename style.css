@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-family: 'Ubuntu', sans-serif;
+}
+.card {
+  background-color: #6dd5fa;
+  background-image: url('assets/undraw_Social_media_re_w12q.svg');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position: bottom;
+  background-size: 475px;
+  border: 1px transparent black;
+  margin: 100px 300px;
+  height: 590px;
+  width: 60rem;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link {
+  margin: 15px;
+  text-decoration: none;
+}
+
+.button {
+  border: transparent;
+  background-color: #2b2e4a;
+  color: #fff;
+  border-radius: 5px;
+  height: 40px;
+  width: 95px;
+  outline: none;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+.title {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 40px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.input {
+  border-radius: 15px;
+  height: 40px;
+  width: 350px;
+  outline: none;
+  border: 1px transparent;
+}
+
+.main-button {
+  border: transparent;
+  border-radius: 15px;
+  height: 40px;
+  width: 100px;
+  background-color: #2b2e4a;
+  color: #fff;
+  margin-left: -50px;
+  outline: none;
+  cursor: pointer;
+}
